@@ -1,0 +1,12 @@
+# main links links
+main:
+  - title: "Curriculum Vitae"
+    url: /cv/
+
+  - title: "Research"
+    url: /research/  
+
+  - title: "Teaching"
+    url: /teaching/    
+
+    
