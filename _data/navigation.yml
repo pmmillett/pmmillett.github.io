@@ -3,10 +3,8 @@ main:
   - title: "Curriculum Vitae"
     url: /cv/
 
+  - title: "Job Market Paper"
+    url: /jobmarket/    
+
   - title: "Research"
     url: /research/  
-
-  - title: "Teaching"
-    url: /teaching/    
-
-    
