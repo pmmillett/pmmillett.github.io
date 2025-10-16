@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a human who has spent my entire career taking on tasks that I probably shouldn't, but end up learning a lot and contributing to facilitating the research of some of the most brilliant minds on the planet.   
+I am a human who has spent my entire career taking on tasks that I probably shouldn't, but end up learning a lot and contributing to facilitating the research of some of the most brilliant minds on the planet.   Also, I need to test things to see what works for folks.
 
 Markdown Files, I'm learning?
 ======
