@@ -11,3 +11,6 @@ main:
 
   - title: "Projects"
     url: /projects/
+
+  - title: "Test"
+    url: /test/
