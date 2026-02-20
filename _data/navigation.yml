@@ -14,3 +14,6 @@ main:
 
   - title: "Test"
     url: /test/
+
+  - title: "Favorite Games"
+    url: /favorite-games/
