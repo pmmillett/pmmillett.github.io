@@ -3,6 +3,7 @@ title: "Job Market Candidates"
 permalink: /job-market-candidates/
 layout: single
 author_profile: false
+classes: wide
 ---
 
 <style>
@@ -28,20 +29,23 @@ author_profile: false
     max-width:60ch;
   }
 
-  /* ---- the card grid ---- */
+  /* ---- the card grid ----
+     CSS Grid with a hard-coded 3-column track list, rather than
+     flex-wrap + width math. Flexbox will drop to 2 columns as soon
+     as the container is narrower than 3 cards' min-width + gaps;
+     this grid holds 3 columns down to the 720px breakpoint below,
+     where it's explicitly stepped down instead of wrapping on its own. */
   .jmc-grid{
-    max-width:1120px;
+    max-width:1200px;
     margin:0 auto;
-    display:flex;
-    flex-wrap:wrap;
-    gap:32px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
   }
 
   .jmc-card{
     display:flex;
     flex-direction:column;
-    width:calc((100% - 64px) / 3); /* 3 per row, accounting for 32px gaps */
-    min-width:240px;
     background:var(--jmc-card-bg);
     border:1px solid var(--jmc-rule);
     border-radius:4px;
@@ -131,10 +135,10 @@ author_profile: false
   }
 
   @media (max-width: 720px){
-    .jmc-card{ width:calc((100% - 32px) / 2); }
+    .jmc-grid{ grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 480px){
-    .jmc-card{ width:100%; }
+    .jmc-grid{ grid-template-columns: 1fr; }
   }
 </style>
 
