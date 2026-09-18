@@ -156,7 +156,7 @@ classes: wide
     </div>
     <div class="jmc-body">
       <p class="jmc-name">Candidate Name 1</p>
-      <p class="jmc-fields">Labor Economics, Public Economics</p>
+      <p class="jmc-fields">Labor Economics, Public Economics, Behavioral Economics</p>
       <p class="jmc-jmp">
         <span class="jmc-label">Job Market Paper</span>
         Title of the Job Market Paper Goes Here
