@@ -1,19 +1,5 @@
 # main links links
 main:
-  - title: "Curriculum Vitae"
-    url: /cv/
-
-  - title: "Job Market Paper"
-    url: /jobmarket/    
-
-  - title: "Research"
-    url: /research/
-
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Test"
-    url: /test/
-
-  - title: "Favorite Games"
-    url: /favorite-games/
+  - title: "Job Market Candidates"
+    url: /job-market-candidates/
+ 
